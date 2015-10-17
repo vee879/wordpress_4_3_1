@@ -280,11 +280,6 @@ function classify_theme_setup() {
     // Lost Password and Login Error
 
     add_action( 'wp_login_failed', 'wpcrown_front_end_login_fail' );  // hook failed login
-
-
-    // Logout and Redirect to home page
-    
-    add_action('logout',create_function('','wp_redirect(home_url());exit();'));
     
 
     // Load scripts and styles

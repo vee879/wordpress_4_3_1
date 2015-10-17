@@ -96,7 +96,7 @@ $layout = $redux_demo['layout-version'];
 					</li>
 					
 					<li class="last">
-						<a href="<?php echo wp_logout_url(get_option('siteurl')); ?>" class="ctools-use-modal ctools-modal-ctools-ajax-register-style" title="Logout"><?php echo $trns_logout_title; ?></a>
+						<a href="<?php echo wp_logout_url( home_url() ); ?>" class="ctools-use-modal ctools-modal-ctools-ajax-register-style" title="Logout"><?php echo $trns_logout_title; ?></a>
 					</li>
 					<?php } else { 
 
