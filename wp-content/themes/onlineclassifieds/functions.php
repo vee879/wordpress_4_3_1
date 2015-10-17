@@ -284,7 +284,7 @@ function classify_theme_setup() {
 
     // Logout and Redirect to home page
     
-    add_action('wp_logout',create_function('','wp_redirect(home_url());exit();'));
+    add_action('logout',create_function('','wp_redirect(home_url());exit();'));
     
 
     // Load scripts and styles
