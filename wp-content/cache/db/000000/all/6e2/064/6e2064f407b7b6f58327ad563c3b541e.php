@@ -1,0 +1,6 @@
+G–#V<?php exit; ?>a:6:{s:10:"last_error";s:0:"";s:10:"last_query";s:150:"
+		SELECT DISTINCT YEAR( post_date ) AS year, MONTH( post_date ) AS month
+		FROM wp_posts
+		WHERE post_type = 'attachment'
+		ORDER BY post_date DESC
+	";s:11:"last_result";a:4:{i:0;O:8:"stdClass":2:{s:4:"year";s:4:"2015";s:5:"month";s:2:"10";}i:1;O:8:"stdClass":2:{s:4:"year";s:4:"2015";s:5:"month";s:1:"3";}i:2;O:8:"stdClass":2:{s:4:"year";s:4:"2015";s:5:"month";s:1:"2";}i:3;O:8:"stdClass":2:{s:4:"year";s:4:"2015";s:5:"month";s:1:"1";}}s:8:"col_info";a:2:{i:0;O:8:"stdClass":13:{s:4:"name";s:4:"year";s:7:"orgname";s:0:"";s:5:"table";s:0:"";s:8:"orgtable";s:0:"";s:3:"def";s:0:"";s:2:"db";s:0:"";s:7:"catalog";s:3:"def";s:10:"max_length";i:4;s:6:"length";i:4;s:9:"charsetnr";i:63;s:5:"flags";i:32768;s:4:"type";i:3;s:8:"decimals";i:0;}i:1;O:8:"stdClass":13:{s:4:"name";s:5:"month";s:7:"orgname";s:0:"";s:5:"table";s:0:"";s:8:"orgtable";s:0:"";s:3:"def";s:0:"";s:2:"db";s:0:"";s:7:"catalog";s:3:"def";s:10:"max_length";i:2;s:6:"length";i:2;s:9:"charsetnr";i:63;s:5:"flags";i:32768;s:4:"type";i:3;s:8:"decimals";i:0;}}s:8:"num_rows";i:4;s:10:"return_val";i:4;}
